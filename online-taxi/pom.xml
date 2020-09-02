@@ -4,13 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.colin</groupId>
-    <artifactId>online-taxi-parent</artifactId>
+    <artifactId>online-taxi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>api-passenger</module>
+        <module>passenger-web</module>
+        <module>common-util</module>
     </modules>
     <packaging>pom</packaging>
-    <name>online-parent</name>
+    <name>online-taxi</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
