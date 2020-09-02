@@ -3,9 +3,9 @@ package com.colin;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// @SpringBootApplication
+@SpringBootApplication
 public class ServiceSmsApplication {
     public static void main(String[] args) {
-        // SpringApplication.run(ServiceSmsApplication.class, args);
+        SpringApplication.run(ServiceSmsApplication.class, args);
     }
 }
