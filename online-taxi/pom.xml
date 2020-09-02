@@ -7,11 +7,12 @@
     <artifactId>online-taxi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>passenger-web</module>
-        <module>common-util</module>
-        <module>api-util</module>
-        <module>web-util</module>
-        <module>service-util</module>
+        <module>api-passenger</module>
+        <module>util-common</module>
+        <module>util-api</module>
+        <module>util-web</module>
+        <module>util-service</module>
+        <module>service-sms</module>
     </modules>
     <packaging>pom</packaging>
     <name>online-taxi</name>
