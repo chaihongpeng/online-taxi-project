@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: service-sms
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/new_schema?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1234
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8080
+#        port: 8719
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+  type-aliases-package: com.atguigu.gmall.entities
+
+ribbon:
+  ReadTimeout: 5000 #读取超时时间限制
+  ConnectionTimeout: 5000 #连接超时时间限制
