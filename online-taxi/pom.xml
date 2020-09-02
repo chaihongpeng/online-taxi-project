@@ -10,6 +10,8 @@
         <module>passenger-web</module>
         <module>common-util</module>
         <module>api-util</module>
+        <module>web-util</module>
+        <module>service-util</module>
     </modules>
     <packaging>pom</packaging>
     <name>online-taxi</name>

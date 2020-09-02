@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: passenger-web
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8080
+#        port: 8719
+ribbon:
+  ReadTimeout: 5000 #读取超时时间限制
+  ConnectionTimeout: 5000 #连接超时时间限制
