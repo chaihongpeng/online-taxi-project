@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>passenger-web</artifactId>
+    <artifactId>api-passenger</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.colin</groupId>

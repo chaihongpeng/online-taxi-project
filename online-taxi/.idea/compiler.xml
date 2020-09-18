@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-verification-code" />
+        <module name="util-common" />
+        <module name="util-service" />
+        <module name="api-passenger" />
+        <module name="util-web" />
+        <module name="service-sms" />
+        <module name="util-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-passenger" target="1.8" />
+      <module name="online-taxi" target="1.8" />
+      <module name="service-sms" target="1.8" />
+      <module name="service-verification-code" target="1.8" />
+      <module name="util-api" target="1.8" />
+      <module name="util-common" target="1.8" />
+      <module name="util-service" target="1.8" />
+      <module name="util-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

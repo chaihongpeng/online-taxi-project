@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api-passenger/api-passenger.iml" filepath="$PROJECT_DIR$/api-passenger/api-passenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online-taxi.iml" filepath="$PROJECT_DIR$/online-taxi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-sms/service-sms.iml" filepath="$PROJECT_DIR$/service-sms/service-sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-verification-code/service-verification-code.iml" filepath="$PROJECT_DIR$/service-verification-code/service-verification-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-api/util-api.iml" filepath="$PROJECT_DIR$/util-api/util-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-common/util-common.iml" filepath="$PROJECT_DIR$/util-common/util-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-service/util-service.iml" filepath="$PROJECT_DIR$/util-service/util-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util-web/util-web.iml" filepath="$PROJECT_DIR$/util-web/util-web.iml" />
+    </modules>
+  </component>
+</project>
