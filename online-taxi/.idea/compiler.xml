@@ -26,4 +26,15 @@
       <module name="util-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-passenger" options="-parameters" />
+      <module name="service-sms" options="-parameters" />
+      <module name="service-verification-code" options="-parameters" />
+      <module name="util-api" options="-parameters" />
+      <module name="util-common" options="-parameters" />
+      <module name="util-service" options="-parameters" />
+      <module name="util-web" options="-parameters" />
+    </option>
+  </component>
 </project>
